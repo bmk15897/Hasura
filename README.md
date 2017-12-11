@@ -1,4 +1,5 @@
 # Hasura
 HDPF
-Just run the server.py.
-port:5000
+Run server.py
+Use port:5000
+Python3, Flask, requests should be installed.
