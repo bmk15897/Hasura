@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample HTML Page</title>
+</head>
+<body>
+    HI it is Bharati's sample html page!
+    <div>
+        <form method="POST" action="/input">
+        <input type="text" name="text">
+            <button type="submit" name="button">Click me</button>
+        {% for ele in my_list %}
+            <p>{{ele}}</p>
+            {% endfor %}
+        </form>
+
+    </div>
+</body>
+</html>
